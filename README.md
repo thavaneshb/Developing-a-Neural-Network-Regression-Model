@@ -5,21 +5,13 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 A neural network regression model is used to predict continuous numerical values based on input data. Unlike classification problems that assign inputs to categories, regression focuses on estimating real-valued outputs such as price, temperature, or demand.
-
 The problem statement in this context involves developing a model that can learn the relationship between input features (independent variables) and a continuous target variable (dependent variable) using a neural network. The dataset typically contains multiple input attributes, and the goal is to train the model so that it can accurately predict the output for unseen data.
-
 A neural network consists of layers of interconnected neurons, including an input layer, one or more hidden layers, and an output layer. Each neuron processes inputs using weights and biases, applies an activation function, and passes the result to the next layer. During training, the network adjusts these weights using optimization techniques like gradient descent to minimize the error between predicted and actual values.
-
 In regression tasks, commonly used loss functions include Mean Squared Error (MSE) or Mean Absolute Error (MAE), which measure how far the predictions are from the true values. The model learns by iteratively updating its parameters to reduce this loss.
-
 The main objective of this problem is to:
-
 Build a neural network model
-
 Train it using the dataset Evaluate its performance
-
 Use it to make accurate continuous predictions
-
 This approach is widely used in applications such as house price prediction, stock forecasting, and demand estimation, where outputs are numerical rather than categorical.
 
 ## Neural Network Model
@@ -65,7 +57,7 @@ Use the trained model to predict  for a new input value .
 
 ### Register Number:212224040352
 
-```python
+```
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -146,17 +138,21 @@ print(f'Prediction: {prediction}')
 
 ### Dataset Information
 Include screenshot of the generated data
+
 <img width="432" height="414" alt="image" src="https://github.com/user-attachments/assets/c6e77102-18c3-48e6-b6a5-7ac933d6f689" />
 
 ### OUTPUT
+
 <img width="766" height="248" alt="image" src="https://github.com/user-attachments/assets/0da72a50-fbc4-4693-8796-8a28d15ec5c6" />
 
 ### Training Loss Vs Iteration Plot
 Include your plot here
+
 <img width="782" height="568" alt="image" src="https://github.com/user-attachments/assets/c4d9e565-c6e7-40b2-a371-0e605df9dfd0" />
 
 ### New Sample Data Prediction
 Include your sample input and output here
+
 <img width="755" height="44" alt="image" src="https://github.com/user-attachments/assets/7040775b-d41e-4c18-aa37-d8787ccf82e7" />
 
 ## RESULT
